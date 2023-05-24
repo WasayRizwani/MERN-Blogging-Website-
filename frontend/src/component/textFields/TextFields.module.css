@@ -1,0 +1,25 @@
+.TextWrapper{
+display: flex;
+flex-direction: column;
+margin: 10px;
+align-items: center;
+width:inherit;
+}
+
+.TextWrapper input{
+    width: 25%;
+    outline:none;
+    padding:10px;
+    margin :10px;
+    border :1px solid white ;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+
+.errorMessage{
+    color: red ;
+    font-size: 12px;
+width :25%;
+text-align: left;
+}

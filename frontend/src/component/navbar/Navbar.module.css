@@ -1,0 +1,88 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: #282c34; */
+    color: white;
+    margin:1px  ;
+    padding :0px;
+}
+.navLinks{
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+      text-decoration: none;
+    
+    
+   
+ }
+    .navLinks:hover{
+        background-color: #282c34;
+        color: white;
+      transition: all 0.5s ease-in-out;
+      transform:scale(1.2);
+        cursor: pointer;
+    }
+
+    .navLinks:active{
+        background-color: #282c34;
+        color: white;
+        cursor: pointer;
+    }
+    .logo{
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-decoration: none;
+        color: white;
+        margin:20px;
+    }
+  
+    .loginButton{
+        
+        padding: 10px 15px;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: #282c34;
+        color: white;
+        outline:none;
+        font-weight:bold;
+        font-size: medium;
+        cursor: pointer;
+
+        text-decoration: none;
+    }
+    .signUpButton{
+        padding: 10px;
+        outline: none;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: #1d4dfa;
+        color: white;
+        font-weight:bold;
+        font-size: medium;
+        cursor: pointer;
+        text-decoration: none;
+    }   
+    
+    button:hover{
+        color: black;
+       background-color:#f3f3f3
+    }
+    .SignOut{
+        padding: 10px;
+        outline: none;
+        margin: 10px;
+        border-radius: 10px;
+        background-color: #cc2828;
+        color: white;
+        font-weight:bold;
+        font-size: medium;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    .seperator{
+        height: 1px;
+        width: 100%;
+        background-color: #282c34;
+        margin: 10px;
+    }
